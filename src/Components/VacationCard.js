@@ -6,7 +6,6 @@ export default function VacationCard(props) {
     <div className="vacation-card card">
       <div className="vacation-image-holder">
         <img src={props.vac.image} alt="country-pic" />
-        {/* <img src={props.image} alt="country-pic" /> */}
       </div>
       <div className="vacation-info">
         <div className="country-info">

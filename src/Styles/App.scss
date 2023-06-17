@@ -47,9 +47,14 @@ body {
             display: grid;
             gap: 1rem;
             grid-template-columns: auto 1fr;
-            .vacation-image-holder img {
-              height: 100%;
-              width: 100%;
+            .vacation-image-holder {
+              width: 140px;
+              height: 190px;
+              img {
+                height: 100%;
+                width: 100%;
+                border-radius: 1rem;
+              }
             }
             .vacation-info {
               .country-info {

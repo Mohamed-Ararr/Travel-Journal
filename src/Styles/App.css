@@ -71,9 +71,14 @@ body #root .App .travel-card .main-section .vacation-card {
   -ms-grid-columns: auto 1rem 1fr;
   grid-template-columns: auto 1fr;
 }
+body #root .App .travel-card .main-section .vacation-card .vacation-image-holder {
+  width: 140px;
+  height: 190px;
+}
 body #root .App .travel-card .main-section .vacation-card .vacation-image-holder img {
   height: 100%;
   width: 100%;
+  border-radius: 1rem;
 }
 body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info {
   gap: 10px;
@@ -85,6 +90,7 @@ body #root .App .travel-card .main-section .vacation-card .vacation-info .countr
           align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
+          justify-content: start;
 }
 body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info h4 {
   text-transform: uppercase;

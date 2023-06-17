@@ -1,7 +1,8 @@
 const data = [
   {
     key: 1,
-    image: "australia-image.png",
+    image:
+      "https://res.cloudinary.com/jnto/image/upload/w_750,h_503,fl_lossy,f_auto/v1531981666/fujiguide/SG010_6",
     country: "japan",
     location: "mount fuji",
     schedule: "12 jan, 2021 - 24 jan, 2021",
@@ -10,7 +11,8 @@ const data = [
 
   {
     key: 2,
-    image: "japan-image.png",
+    image:
+      "https://media.architecturaldigest.com/photos/63d82d299dd44a3242d15ade/1:1/w_2002,h_2002,c_limit/GettyImages-982774858.jpg",
     country: "australia",
     location: "Sydney Opera House",
     schedule: "27 May, 2021 - 8 Jun, 2021",
@@ -19,7 +21,8 @@ const data = [
 
   {
     key: 3,
-    image: "japan-image.png",
+    image:
+      "https://i2.wp.com/evenoneday.com/wp-content/uploads/2019/09/IMG_6967-1.jpeg?resize=1140%2C855",
     country: "norway",
     location: "Geirangerfjord",
     schedule: "01 Oct, 2021 - 18 Nov, 2021",
