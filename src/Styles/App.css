@@ -85,7 +85,6 @@ body #root .App .travel-card .main-section .vacation-card .vacation-info .countr
           align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
 }
 body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info h4 {
   text-transform: uppercase;
