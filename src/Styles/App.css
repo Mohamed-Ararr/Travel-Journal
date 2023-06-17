@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+body #root {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #ccc;
+}
+body #root .App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body #root .App .travel-card {
+  margin: 1rem;
+  width: 70%;
+  background-color: white;
+}
+body #root .App .travel-card .header {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  background-color: #f55a5a;
+}
+body #root .App .travel-card .header h1 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+body #root .App .travel-card .header .image-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+body #root .App .travel-card .main-section .vacation-card {
+  padding: 2rem 3rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: auto 1rem 1fr;
+  grid-template-columns: auto 1fr;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-image-holder img {
+  height: 100%;
+  width: 100%;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info {
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .country-info span {
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  text-decoration: underline;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .vacation-preview .vacation-location {
+  text-transform: capitalize;
+  margin: 0.75rem 0;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .vacation-preview .vacation-schedule {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+body #root .App .travel-card .main-section .vacation-card .vacation-info .vacation-preview .vacation-desc {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
