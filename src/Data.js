@@ -28,6 +28,15 @@ const data = [
     schedule: "01 Oct, 2021 - 18 Nov, 2021",
     desc: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
   },
+
+  {
+    key: 4,
+    image: "https://pbs.twimg.com/media/E5VFgWzXEAgL3xx.jpg:large",
+    country: "Algeria",
+    location: "Algiers",
+    schedule: "01 Oct, 2021 - 18 Nov, 2021",
+    desc: "The Maqam Echahid is a concrete monument commemorating the Algerian War. The monument was opened in 1982, on the 20th anniversary of Algeria's independence. It is fashioned in the shape of three standing palm leaves, which shelter the 'Eternal Flame' under it.",
+  },
 ];
 
 export default data;
